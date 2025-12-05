@@ -14,3 +14,12 @@ git status  : to see the file status if there are file not commited yet
 git log     : see the key of the commit (for revert back)
 git checkout (copy the key here)    : back to this point
 git checkout master : get to the current status
+
+git checkout -b (branchName) (key : that get from gir log)
+    + now u can added file or modify without change the master file. all it happen in the new branch
+
+# to merge the new branch with the master branch
+step 1  : be on the master branch [git chekout master]
+step 2  : git merge branchName
+step 3  : git add .
+step 4  : git commit -m "message"
