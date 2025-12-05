@@ -2,4 +2,6 @@
 
 
 # this ia a code
-print("I love Girsl")
+print("I love Girl")
+
+print("i like to learn git for branching and merging")
