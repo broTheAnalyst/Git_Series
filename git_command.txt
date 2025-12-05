@@ -1,11 +1,16 @@
 this is command for git
 
+create repository : 
+-------------------
 step 1 : git init
 step 2 : git add . (this dot for add of file) or git add first_file.py
 strp 3 : git commit -m "this my first commit"  (-m for create message)
+================
 
-========
-command : 
+command :
+--------- 
 ls          : list all contains of directory
 git status  : to see the file status if there are file not commited yet
 git log     : see the key of the commit (for revert back)
+git checkout (copy the key here)    : back to this point
+git checkout master : get to the current status
